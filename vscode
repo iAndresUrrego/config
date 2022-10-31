@@ -1,0 +1,44 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Night Owl",
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "'mononoki NF', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 16,
+    "files.insertFinalNewline": true,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.rulers": [
+        120
+    ],
+    "editor.tokenColorCustomizations": {
+        "[Night Owl]": {
+            "variables": "#ABB2BF",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword.operator.assignment.js",
+                        "meta.var.expr.js",
+                        "source.js",
+                    ],
+                    "settings": {
+                        "foreground": "#DD5353",
+                    }
+                }
+            ]
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "[Night Owl]": {
+            "rules": {
+                "variable": "#ABB2BF",
+                "function": "#FDFDBD",
+                "class": "#7FB77E"
+            }
+        }
+    }
+}
